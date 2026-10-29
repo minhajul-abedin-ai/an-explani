@@ -2,9 +2,15 @@
 
 A production-minded Retrieval-Augmented Generation (RAG) engineering project focused on **retrieval quality, grounding, guardrails, evaluation and API delivery**.
 
-> Recommended repository name: `production-rag-evaluation-platform`
-
 This project is designed as a portfolio piece for **AI / Machine Learning Engineer** roles. It demonstrates the engineering around RAG systems rather than hiding everything behind a single LLM API call.
+
+## Get started in minutes
+
+**For developers:** [run the local FastAPI service](#quick-start), test requests using the [example API flow](#example-api-flow), and [reproduce sample evaluation metrics](#tests). You can run the baseline without paid LLM keys.
+
+**For ML practitioners:** inspect how retrieval relevance, grounding proxies and baseline guardrails are evaluated. The initial retriever is **TF-IDF**, and the answerer is **extractive**, not a hosted generative LLM; embedding retrieval and LLM integrations are future work.
+
+**Related work:** [ConsensusTree-AI multi-agent code review](https://github.com/minhajul-abedin-ai/ConsensusTree-AI) · [Author's AI engineering portfolio](https://github.com/minhajul-abedin-ai)
 
 ## Why this project
 
